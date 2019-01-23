@@ -79,7 +79,7 @@ const mapDispatchToProps = (dispatch: any,ownProps: IFollowersComponentProps) =>
 
   /**
    * Map state to props
-   * @param  {object} state is the obeject from redux store
+   * @param  {object} state is the object from redux store
    * @param  {object} ownProps is the props belong to component
    * @return {object}          props of component
    */

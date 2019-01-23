@@ -146,7 +146,7 @@ export class SidebarComponent extends Component<ISidebarComponentProps,ISidebarC
 
   /**
    * Handle resize event for window to change sidebar status
-   * @param  {event} evt is the event is passed by winodw resize event
+   * @param  {event} evt is the event is passed by window resize event
    */
   handleResize = () => {
 

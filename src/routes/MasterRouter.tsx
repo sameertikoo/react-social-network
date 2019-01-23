@@ -15,6 +15,11 @@ const AsyncHome: any = Loadable({
   loader: () => import('containers/home'),
   loading: MasterLoadingComponent,
 })
+// test
+const AsyncEditProfile: any = Loadable({
+  loader: () => import('containers/editProfile'),
+  loading: MasterLoadingComponent,
+})
 const AsyncSignup = Loadable({
   loader: () => import('containers/signup'),
   loading: MasterLoadingComponent,
@@ -31,11 +36,16 @@ const AsyncLogin = Loadable({
   loader: () => import('containers/login'),
   loading: MasterLoadingComponent,
 })
+
 const AsyncSetting = Loadable({
-  loader: () => import('containers/setting'),
+  loader: () => import('containers/editProfile'),
   loading: MasterLoadingComponent,
 })
 
+const AsyncEditSkill = Loadable({
+  loader: () => import('containers/editSkill'),
+  loading: MasterLoadingComponent,
+})
 /**
  * Master router
  */
@@ -45,6 +55,7 @@ export class MasterRouter extends Component<IRouterProps, any> {
     return (
         enabled ? (
         <Switch>
+          <Route path='/editprofile' component={AsyncEditSkill}/>
           <Route path='/signup' component={AsyncSignup} />
           <Route path='/emailVerification' component={AsyncEmailVerification} />
           <Route path='/settings' component={AsyncSetting} />

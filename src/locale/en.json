@@ -3,8 +3,7 @@
         "home": "Home",
         "profile": "Profile",
         "people": "People",
-        "settings": "Settings",
-        "sendFeedback": "Send Feedback"
+        "settings": "Settings"
 
     },
     "header": {
@@ -25,7 +24,7 @@
         "enableComments": "Enable Comments",
         "enableSharing": "Enable Sharing",
         "public": "public",
-        "textareaPlaceholder": "What's new with you?",
+        "textareaPlaceholder": "What have you been upto?",
         "moreTooltip": "more",
         "postButton": "POST",
         "cancelButton": "CANCEL",
@@ -108,19 +107,19 @@
         "happyTooltip":  "Happy",
         "awesomeTooltip":  "Awesome",
         "appreciateMessage": "We appreciate your kind support as always ;)",
-        "sendingMessage": "Your feedback is sending!",
+        "sendingMessage": "Your feedback is being sent!",
         "errorMessage": "Error in sending feedback :( "
     },
     "login": {
-        "title": "Sign in",
+        "title": "Welcome to Netlink",
         "emailLabel": "Email",
         "passwordLabel": "Password",
         "emailRequiredError": "This field is required.",
         "passwordRequiredError": "This field is required.",
         "createAccountButton": "CREATE AN ACCOUNT",
-        "loginButton": "LOGIN",
-        "forgetPasswordMessage": "Have you forgot your password?",
-        "resetPasswordLabel": "reset your password."
+        "loginButton": "Sign In",
+        "forgetPasswordMessage": "Forgot password?",
+        "resetPasswordLabel": "Reset it here"
     },
     "signup": {
         "title":"Sign up",
@@ -145,14 +144,14 @@
         "backButton": "BACK",
         "resetPasswordButton": "RESET PASSWORD",
         "emailRequiredError": "This field is required.",
-        "description": "Please put your email and click on `RESET PASSWORD`. If not click on `BACK`. We will send you an email contains the link of the reset password."
+        "description": "Kindly enter your email and click on `RESET PASSWORD`. If not click on `BACK`. We will send you an email contains the link of the reset password."
 
     },
     "emailVerification": {
         "title": "Email Verification",
         "homeButton": "HOME",
         "sendButton": "Send Email Verification",
-        "description": "An verificiation email has been already sent to you. Please check your inbox. If you couldn't see the emai, please resend email verification."
+        "description": "An verificiation email has been already sent to you. Kindly check your e-mail. In case you weren't able to see the email, please resend email verification."
     },
     "common": {
         "sentRequestMessage": "Request has been sent.",

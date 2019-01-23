@@ -31,6 +31,7 @@ import Typography from '@material-ui/core/Typography'
 import IconButton from '@material-ui/core/IconButton'
 import Hidden from '@material-ui/core/Hidden'
 import MenuIcon from '@material-ui/icons/Menu'
+import SvgEditProfile from '@material-ui/icons/Edit'
 
 // - Import app components
 import Sidebar from 'src/components/sidebar'
@@ -41,6 +42,7 @@ import SidebarMain from 'src/components/sidebarMain'
 import Profile from 'containers/profile'
 import PostPage from 'containers/postPage'
 import People from 'containers/people'
+import EditProfile from 'containers/editProfile'
 
 // - Import API
 
@@ -232,6 +234,15 @@ export class HomeComponent extends Component<IHomeComponentProps, IHomeComponent
           <ListItemText inset primary={translate!('sidebar.settings')} />
         </MenuItem>
       </NavLink>
+      <NavLink to='/editprofile'>
+        <MenuItem style={{ color: 'rgb(117, 117, 117)' }}>
+          <ListItemIcon>
+            <SvgEditProfile />
+          </ListItemIcon>
+          <ListItemText inset primary={translate!('sidebar.EditProfile')} />
+        </MenuItem>
+      </NavLink>
+ 
       <MenuItem onClick={() => showSendFeedback!()} style={{ color: 'rgb(117, 117, 117)' }}>
         <ListItemIcon>
           <SvgFeedback />

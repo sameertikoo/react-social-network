@@ -20,4 +20,4 @@ export enum GlobalActionType {
     CLOSE_POST_WRITE = 'CLOSE_POST_WRITE',
     INIT_LOCALE = 'INIT_LOCALE'
 
-}
+}   

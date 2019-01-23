@@ -179,7 +179,10 @@ export class UserBoxComponent extends Component<IUserBoxComponentProps, IUserBox
     }
     if (!isFollowed) {
       debugger
-      followUser!(followingCircle![0], { avatar, userId, fullName })
+      console.log('followingCircle![0]')
+      console.log(followingCircle)
+      // TBD followUser!(followingCircle![0], { avatar, userId, fullName })
+      followUser!('1', { avatar, userId, fullName })
     } else {
       this.onRequestOpenAddCircle()
     }
